@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 276, y: 292}
   m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
-  controlID: 103
+  controlID: 18
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -99,7 +99,7 @@ MonoBehaviour:
   m_MinSize: {x: 507, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 60
+  controlID: 119
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -253,7 +253,7 @@ MonoBehaviour:
   m_MinSize: {x: 231, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 61
+  controlID: 120
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -2176,22 +2176,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Packages/com.unity.ide.vscode
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Packages/com.unity.ide.vscode
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: E:\Unity Data\HolySheep\holysheep\HolySheep
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 96}
-    m_SelectedIDs: 06680000
-    m_LastClickedID: 26630
-    m_ExpandedIDs: 00000000d6640000e4640000e6670000ffffff7f
+    scrollPos: {x: 0, y: 31}
+    m_SelectedIDs: fe4a0000
+    m_LastClickedID: 19198
+    m_ExpandedIDs: 00000000fe4a0000004b0000024b0000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2219,7 +2219,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 00000000fe4a0000004b0000024b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2328,7 +2328,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 7a640000
     m_LastClickedID: 25722
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 00000000fe4a0000004b0000024b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2356,7 +2356,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 920bfeff980bfeff8c0bfeff960bfeff
     m_LastClickedID: 0
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 00000000fe4a0000004b0000024b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2477,9 +2477,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 984b0000
       m_LastClickedID: 0
-      m_ExpandedIDs: 7cfaffff
+      m_ExpandedIDs: 72fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -2590,11 +2590,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.14430535, y: 0.8151061, z: -0.22981352, w: -0.51182437}
     speed: 2
-    m_Value: {x: -0.14396045, y: 0.8158728, z: -0.23002969, w: -0.5106011}
+    m_Value: {x: -0.14430533, y: 0.815106, z: -0.22981349, w: -0.5118243}
   m_Size:
     m_Target: 3.6167088
     speed: 2
-    m_Value: 3.7871296
+    m_Value: 3.6167088
   m_Ortho:
     m_Target: 0
     speed: 2
