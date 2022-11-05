@@ -32,11 +32,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e435bf89a8bb0bf4abee94a2cc516927, type: 3}
-  m_Name: GIF Animation
+  m_Script: {fileID: 11500000, guid: 6fde0a8ac3e6b482c95fa602e65ab045, type: 3}
+  m_Name: Movie
   m_EditorClassIdentifier: 
   enabled: 1
-  take: 2
+  take: 3
   captureEveryNthFrame: 1
   fileNameGenerator:
     m_Path:
@@ -44,9 +44,31 @@ MonoBehaviour:
       m_Leaf: Recordings
       m_ForceAssetFolder: 0
       m_AbsolutePath: 
-    m_FileName: gif_animation_<Take>
+    m_FileName: movie_<Take>
+  outputFormat: 0
+  videoBitRateMode: 2
+  captureAlpha: 0
+  containerFormatSelected: 0
+  encoderSelected: 0
+  encoderPresetSelected: 0
+  encoderPresetSelectedName: 
+  encoderPresetSelectedOptions: 
+  encoderPresetSelectedSuffixes: 
+  encoderColorDefinitionSelected: 0
+  encoderCustomOptions: 
   m_ImageInputSelector:
-    m_Selected: cameraInputSettings
+    m_Selected: gameViewInputSettings
+    gameViewInputSettings:
+      m_OutputResolution:
+        m_CustomWidth: 1024
+        m_CustomHeight: 1024
+        imageHeight: 0
+        maxSupportedHeight: 2160
+        m_AspectRatio:
+          m_CustomAspectX: 1
+          m_CustomAspectY: 1
+          m_ImageAspect: 1
+      flipFinalOutput: 1
     cameraInputSettings:
       m_OutputResolution:
         m_CustomWidth: 1024
@@ -59,11 +81,20 @@ MonoBehaviour:
           m_ImageAspect: 1
       source: 2
       cameraTag: 
-      flipFinalOutput: 1
+      flipFinalOutput: 0
       captureUI: 0
+    camera360InputSettings:
+      source: 2
+      cameraTag: 
+      flipFinalOutput: 0
+      renderStereo: 1
+      stereoSeparation: 0.065
+      mapSize: 1024
+      m_OutputWidth: 1024
+      m_OutputHeight: 2048
     renderTextureInputSettings:
       renderTexture: {fileID: 0}
-      flipFinalOutput: 1
+      flipFinalOutput: 0
     renderTextureSamplerSettings:
       source: 1
       m_RenderWidth: 1280
@@ -79,10 +110,6 @@ MonoBehaviour:
       superKernelScale: 1
       cameraTag: 
       colorSpace: 0
-      flipFinalOutput: 1
-  gifEncoderSettings:
-    width: 0
-    height: 0
-    numColors: 256
-    keyframeInterval: 30
-    maxTasks: 8
+      flipFinalOutput: 0
+  m_AudioInputSettings:
+    preserveAudio: 1
