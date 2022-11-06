@@ -1,3 +1,71 @@
+<<<<<<< HEAD
+#This is the git ignore file used in HolySheep
+#Note that ! negates an ignore. We ignore everything in Library then
+#un-ignore the metadata folder and some specific files
+#Use at your own risk, this may totally destroy your project, but it worked for us
+ 
+
+#NOTE: this will cause your collaborators to re-import assets periodically
+Temp/*
+Library/*
+Build/*
+#Un-ignore these specific files
+!Library/*.asset
+!Library/AssetImportState
+!Library/AssetVersioning.db
+!Library/BuildPlayer.prefs
+!Library/ScriptMapper
+!Library/assetservercachev3
+!Library/expandedItems
+!Library/guidmapper
+!Library/unity default resources
+!Library/unity editor resources
+!Library/metadata/
+ 
+
+#ignoring pidb, they are just code completion caching data according to:
+# http://stackoverflow.com/questions/1022111/what-are-monodevelops-pidb-files
+*.pidb
+=======
+<<<<<<< Updated upstream
+
+*.log
+HolySheep/Library/Artifacts/29/29e5decfd0a2995d0c546c35877a8635
+HolySheep/Library/Artifacts/13/13bfab2cde5afd9387477719dce2c1c5
+HolySheep/Library/Artifacts/1d/1dcd0e490c55919d1c93d679fb42fc0b
+HolySheep/Library/Artifacts/35/35def34a39193460a17ed1fbe7093ae9
+HolySheep/Library/Artifacts/36/3689298d445a59693eebc76ff1464838
+HolySheep/Library/Artifacts/38/38ea822d94ad12dee25065a66209c050
+HolySheep/Library/Artifacts/50/50436eb42a7e473beb6f6b6a12b60fca
+HolySheep/Library/Artifacts/55/55a073ad9f826c48b9a2fb2b6425b829
+HolySheep/Library/Artifacts/5a/5abaea8066c812783cbbad5eea896334
+HolySheep/Library/Artifacts/61/614f156fa75f365bc2987eb3179457cb
+HolySheep/Library/Artifacts/65/65fa13a7f40d130aed7de9d20efd476c
+HolySheep/Library/Artifacts/6a/6a19bfb373f3013bd460f15f113bb7fd
+HolySheep/Library/Artifacts/6d/6d40dea41bdf8c22b57be95c65c62e29
+HolySheep/Library/Artifacts/6a/6a6d75b48983c3970a8ec436a12b47de
+HolySheep/Library/Artifacts/70/708218e6ecf0924f421a404a63cf4995
+HolySheep/Library/Artifacts/79/79c39976e74d8a909f6d1ca06eb76af1
+HolySheep/Library/Artifacts/9a/9afc62f3a201571df788769742f9b414
+HolySheep/Library/Artifacts/9d/9d764fe2ebb1a5d92b8954048d66b5d7
+HolySheep/Library/Artifacts/a8/a80226bb89af7188d16d9f624c0aa025
+HolySheep/Library/Artifacts/aa/aa8fe050c7d78e8fce8ad119cc2564a1
+HolySheep/Library/Artifacts/aa/aa5f2ea6b62ee48e8e351b0606cdc240
+HolySheep/Library/Artifacts/ba/bab1b11e792cb56ea51c1f25cf58fecd
+HolySheep/Library/Artifacts/c5/c52ad7b0877876d4cfa1516b36dc2c66
+HolySheep/Library/Artifacts/c7/c7c0f660a8527d24b01b33bf6dbae660
+HolySheep/Library/Artifacts/cf/cf14febfdbdb21c67b96b4fef77158fd
+HolySheep/Library/Artifacts/d0/d08f20364be09c1170b511bb6789f5ad
+HolySheep/Library/Artifacts/d3/d3c6bc9871dc8070cf9014b010967451
+HolySheep/Library/Artifacts/d5/d5069d6364a1d5b3dbc44a78732c628e
+HolySheep/Library/Artifacts/d9/d9ad263324c05ed1e978a140c49e672b
+HolySheep/Library/Artifacts/de/dea882c865864d064eac872e41339b62
+HolySheep/Library/Artifacts/ec/ecef85c504e8f8f46e28eda97bb084d9
+HolySheep/Library/Artifacts/f0/f066a21afedfdbffcf68a97e14881da1
+HolySheep/Library/Artifacts/f6/f69bc6298f6fc5ab5d8b72c24c845a6e
+HolySheep/Library/Artifacts/f8/f8a04d57df82a8b9c603e46a88c70085
+HolySheep/Library/Artifacts/fd/fd9f8cac0cd365749e2c2d8ee7d9a820
+=======
 # This .gitignore file should be placed at the root of your Unity project directory
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
@@ -36,6 +104,20 @@ ExportedObj/
 *.user
 *.userprefs
 *.pidb
+<<<<<<< HEAD
+>>>>>>> Test-Branch-for-cleaning-
+*.userprefs
+HolySheep/Library/ArtifactDB
+HolySheep/Library/SourceAssetDB
+HolySheep/Logs/shadercompiler-UnityShaderCompiler.exe0.log
+<<<<<<< HEAD
+HolySheep/Library/ArtifactDB
+HolySheep/Library/SourceAssetDB
+=======
+>>>>>>> Stashed changes
+HolySheep/Library/ArtifactDB
+HolySheep/Library/SourceAssetDB
+=======
 *.booproj
 *.svd
 *.pdb
@@ -59,3 +141,5 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+>>>>>>> 91f1d4ae60f37ff20a6ef862abf2ecde0ca89e41
+>>>>>>> Test-Branch-for-cleaning-
